@@ -5,3 +5,4 @@ srun \
   --container-workdir="`pwd`" \
   --task-prolog=install.sh\
   --time=04:00:00\
+  bash bash tools/dist_train.sh app/dynmoco/configs/local/ar50to101_10pc_bs64_200_epoch.py 2
