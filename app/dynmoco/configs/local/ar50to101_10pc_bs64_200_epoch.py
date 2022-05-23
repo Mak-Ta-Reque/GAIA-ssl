@@ -4,7 +4,7 @@ _root_ = '../../../..'
 _base_ = [osp.join(_root_, 'configs/base.py'),'../model_samplers/ar50to101v2_sandwich.py']
 #_base_ = [osp.join(_root_, 'configs/base.py')]
 
-_data_root_ = '/ds/images/imagenet'
+_data_root_ = '/netscratch/kadir/imagenet/'
 # model settings
 model = dict(
     type='DynamicMOCO',
